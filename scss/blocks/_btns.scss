@@ -1,0 +1,149 @@
+.btns{
+    margin: 25px;
+}
+.grow{
+    width: 150px;
+    height: 100px;
+    background: gold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;   
+    font-size: 30px;
+    transition: 0.6s ease ;
+     
+      &:hover{
+        transform: scale(1.1);
+    }
+}
+.sink{
+    width: 150px;
+    height: 100px;
+    background: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;   
+    font-size: 30px;
+    transition: 0.6s ease ;
+
+     &:hover{
+        transform: translateY(15px);
+     }
+}
+.skew{
+    width: 150px;
+    height: 100px;
+    background: tomato;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;   
+    font-size: 30px;
+    transition: 0.6s ease ;
+
+     &:hover{
+        transform: skew(-15deg);
+     }
+}
+.skew-forward{
+    width: 150px;
+    height: 100px;
+    background: olive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;   
+    font-size: 30px;
+    transition: 0.6s ease ;
+     &:hover{
+        transform: skew(-15deg) translate(15px);
+     }
+}
+.skew-backward{
+    width: 150px;
+    height: 100px;
+    background: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;   
+    font-size: 30px;
+    transition: 0.6s ease ;
+     &:hover{
+        transform: skew(15deg) translate(-15px);
+     }
+}
+.shrink{
+    width: 150px;
+    height: 100px;
+    background: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;   
+    font-size: 30px;
+    transition: 0.6s ease ; 
+     
+     &:hover{
+        transform: scale(0.8);
+     }
+}
+.rotate{
+    width: 150px;
+    height: 100px;
+    background: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;   
+    font-size: 30px;
+    transition: 0.6s ease ;
+    
+     &:hover{
+        transform: rotate(15deg);
+     }
+}
+.grow-rotate{
+    width: 150px;
+    height: 100px;
+    background: sienna;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;   
+    font-size: 30px;
+    transition: 0.6s ease ;
+
+     &:hover{
+        transform: rotate(15deg)scale(1.3);
+     }
+}
+.forward{
+    width: 150px;
+    height: 100px;
+    background: goldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;   
+    font-size: 30px;
+    transition: 0.6s ease ;
+     &:hover{
+        transform: translate(15px);
+     }
+}
+.backward{
+    width: 150px;
+    height: 100px;
+    background: indigo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;   
+    font-size: 30px;
+    transition: 0.6s ease ;
+     &:hover{
+        transform: translate(-15px);
+     }
+}

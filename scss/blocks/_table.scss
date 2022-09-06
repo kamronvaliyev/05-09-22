@@ -1,0 +1,18 @@
+table{
+    margin: 25px;
+    border-collapse: collapse;
+    text-align: center;
+    
+    font-size: 25px;
+    tr{
+        border: 1px solid black;
+        td{
+            border: 1px solid black;
+            padding: 25px;
+         }
+       th{
+        border:1px solid black;
+        padding: 25px;       
+       }
+    }
+}
